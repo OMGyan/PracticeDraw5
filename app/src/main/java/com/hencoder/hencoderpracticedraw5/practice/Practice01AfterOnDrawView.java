@@ -51,5 +51,6 @@ public class Practice01AfterOnDrawView extends AppCompatImageView {
             canvas.drawText(getResources().getString(R.string.image_size, bounds.width(), bounds.height()), 20, 40, paint);
             canvas.restore();
         }
+
     }
 }
