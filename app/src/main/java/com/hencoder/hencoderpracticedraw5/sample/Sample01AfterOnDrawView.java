@@ -6,11 +6,13 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.AppCompatImageView;
+
 import android.util.AttributeSet;
 
 import com.hencoder.hencoderpracticedraw5.R;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 
 public class Sample01AfterOnDrawView extends AppCompatImageView {
     public static final boolean DEBUG = true;

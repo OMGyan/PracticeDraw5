@@ -4,9 +4,11 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.AppCompatImageView;
+
 import android.util.AttributeSet;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 
 public class Sample07AfterDrawView extends AppCompatImageView {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
